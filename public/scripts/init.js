@@ -1,4 +1,4 @@
-const API_URL = "/api/users/";
+const API_URL = "http://127.0.0.1:3000/api/users/";
 
 async function requestCRUD(method, data) {
   let result;
